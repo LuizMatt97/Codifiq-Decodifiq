@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Codificando e Decodificando</title>
+</head>
+
+<body>
+    <header>
+         <h1 id="titulo">Codificando e Decodificando</h1>
+    </header>
+
+    <form>
+        
+        <input type="text" id="enterMensagem" placeholder="Insira o texto">
+        
+        <select id='op'>
+            <option value="Escolha Aqui">Selecione aqui</option>
+            <option value="cifraDeCesar">Cifra de Cesar</option>
+            <option value="base64">Base64</option>
+        </select>
+                
+                <input type="number" id="incremento" placeholder="Insira seu número" min="1" max="25">
+        
+        <div class='radio'>
+            <p id="op2">Escolha uma opção:</p>
+            <input type="radio" id="codificar" name="input-radio">
+            <label for = "codificar" class="codDecod"> Codificar </label> 
+
+            <input type="radio" id="decodificar" name="input-radio">
+            <label for = "decodificar" class="codDecod"> Decodificar </label>
+        </div>
+
+        <input type="submit" value="Confirmar" id="submit"> 
+
+        <div>
+            <p class="outMensagem"></p>
+        </div>
+        
+    </form>
+
+    <footer></footer>
+
+   <script src="./js/projeto.js"></script>
+</body>
+</html>

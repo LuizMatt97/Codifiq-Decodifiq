@@ -1,0 +1,78 @@
+@import url('http://fonts.cdnfonts.com/css/octopus');
+body {
+    font-family: 'Octopus Bold', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    background: black;
+    
+    
+}
+
+#titulo {
+    font-size: 45px;
+    margin-left:auto;
+    margin-right:auto;
+    color: white;
+    margin-top: 50px;
+}
+
+
+#op {
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+    width: 180px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Octopus Bold', sans-serif;
+}
+
+
+#enterMensagem {
+    color: black;
+    width: 300px;
+    height: 60px;
+    font-size: 20px;
+    margin-top: 100px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+}
+#op2{
+    color: white;
+    font-size: 25px;
+
+}
+#incremento {
+    display:none;
+    margin-top: 20px;
+    width: 195px;
+    height: 30px;
+    font-size: 20px;
+    margin-bottom:30px;
+    border-radius: 5px;
+}
+
+#submit {
+    margin-top: 20px;
+    display:none;
+    font-size: 20px;
+
+}
+
+.codDecod{
+    color: white;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+.outMensagem {
+    text-align: center;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.251);
+    color: white;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
